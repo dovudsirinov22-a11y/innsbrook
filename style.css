@@ -180,3 +180,90 @@ h3{
     padding: 5px;
     text-align: center;
 }
+@media (max-width: 1200px){
+    .container{
+        width: 90%;
+    }
+    .main-menu-list a{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .slogan h1{
+        font-size: 40px;
+        line-height: 62px;
+    }
+    .gallery-item{
+        flex-direction: column;
+    }
+    .gallery-item:nth-child(2){
+        flex-direction: column-reverse;
+    }
+    .gallery-item h3{
+        width: auto;
+    }
+    .gallery-item img{
+        width: 100%;
+    }
+    iframe{
+        width: 100%;
+    }
+}
+@media(max-width: 425px){
+    h2{
+        font-size: 26px;
+        line-height: 30px;
+    }
+    h3{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+    header img{
+        width: 55px;
+        margin-bottom: 5px;
+    }
+    .main-menu{
+        width: 100%;
+    }
+    .main-menu-list{
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-menu-list li{
+        border-bottom: 1px solid #e5e5e5;
+        width: 100%;
+    }
+    .main-menu-list a{
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        display: block;
+        padding: 10px 18px;
+    }
+    .wrapper{
+        flex-direction: column;
+    }
+    .marketing{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .marketing p{
+        font-size: 3vw;
+    }
+    .about-weather-graph figcaption{
+        font-size: 12px;
+        line-height: 23px;
+    }
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-social{
+        margin: 15px 0;
+    }
+}
